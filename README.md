@@ -3,18 +3,21 @@
 -Projeto realizado para práticas de Front-End e Lógica de Programação
 
 ##
+É um site que permite fazer ilustrações de pixel art
 
-<bFunções: </b>
+<b>Funções: </b>
 
 - 📐 Escolha do tamanho da pintura (Escala 50x35 pixels) 
 - 🎨 Cores pré definidas
-- 🎨 Campo para cor personalizada
 - ❌ Retirada da borda dos pixels
-- 🖼 Download da arte feita
+- ⬇ Download da arte feita
+- 🎨 Campo para cor personalizada
+
+- Acesso à aplicação somente com visores com 840 pixels de largura
 
 ##
 
-Acesso à aplicação: https://lucassiq31.github.io/tenisStreet/
+Acesso à aplicação: https://lucassiq31.github.io/tenisStreet/](https://lucassiq31.github.io/PixelPaint/
 
 ##
 <b>Feito com:</b>
