@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Paint</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+</head>
+<body>
+    <div class="celular">
+        <div class="info">
+            <h1>Olá</h1>
+            <hr>
+            <p>Oops! Esta página não funciona bem neste tamanho de tela. Tente diminuir o zoom ou abrir em outro dispositivo. 😊</p>
+        </div>
+    </div>
+    <div class="comp">
+        <div id="fundo">
+            <div class="config">
+                <h1>Bem vindo!</h1>
+                <hr>
+                <p>Escolha o tamanho da sua arte (1 a 50)</p>
+                <input type="number" placeholder="Largura" id="largura" min="1" max="50">
+                <button onclick="criar()">Criar</button>
+            </div>
+        </div>
+        
+        <main>
+            <div class="container">
+                <nav>
+                    <section>
+                        <h1>Cores</h1>
+                        <hr>
+                    </section>
+                    <div class="cores">
+                        <div onclick='cor("vermC", this)' class="vermC"></div>
+                        <div onclick='cor("vermN", this)' class="vermN"></div>
+                        <div onclick='cor("vermE", this)' class="vermE"></div>
+                        <div onclick='cor("laranjaC", this)' class="laranjaC"></div>
+                        <div onclick='cor("laranjaN", this)' class="laranjaN"></div>
+                        <div onclick='cor("laranjaE", this)' class="laranjaE"></div>
+                        <div onclick='cor("amareloC", this)' class="amareloC"></div>
+                        <div onclick='cor("amareloN", this)' class="amareloN"></div>
+                        <div onclick='cor("amareloE", this)' class="amareloE"></div>
+                        <div onclick='cor("verdeC", this)' class="verdeC"></div>
+                        <div onclick='cor("verdeN", this)' class="verdeN"></div>
+                        <div onclick='cor("verdeE", this)' class="verdeE"></div>
+                        <div onclick='cor("azulC", this)' class="azulC"></div>
+                        <div onclick='cor("azulN", this)' class="azulN"></div>
+                        <div onclick='cor("azulE", this)' class="azulE"></div>
+                        <div onclick='cor("roxoC", this)' class="roxoC"></div>
+                        <div onclick='cor("roxoN", this)' class="roxoN"></div>
+                        <div onclick='cor("roxoE", this)' class="roxoE"></div>
+                        <div onclick='cor("rosaC", this)' class="rosaC"></div>
+                        <div onclick='cor("rosaN", this)' class="rosaN"></div>
+                        <div onclick='cor("rosaE", this)' class="rosaE"></div>
+                        <div onclick='cor("cinzaC", this)' class="cinzaC"></div>
+                        <div onclick='cor("cinzaN", this)' class="cinzaN"></div>
+                        <div onclick='cor("cinzaE", this)' class="cinzaE"></div>
+                        <div onclick='cor("preto", this)' class="preto selected"></div>
+                        <div onclick='cor("branco", this)' class="branco"></div>
+                        <div onclick='personalizado()' id="gradiente"></div>
+                    </div>
+                    <div id="personalizado">
+                        <input type="color" name="Cor" id="perso">
+                        <button id="confirm" onclick="corPerso()">&rarr;</button>
+                    </div>
+                </nav>
+                <div class="conteudo">
+                    <div class="funcoes">
+                            <button onclick="removerBorda()">Remover Borda</button>
+                            <button onclick="baixarImagem()">Baixar como imagem</button>
+                        </div>
+                    <div id="pixels"></div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <hr>
+            Desenvolvido por Lucas Siqueira
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
