@@ -114,7 +114,11 @@ function removerBorda() {
 
 //Baixar a arte
 function baixarImagem() {
-    removerBorda()
+    const pixels = document.querySelectorAll(".pixel");
+    pixels.forEach(pixel => {
+            pixel.style.border = "1px solid transparent";
+    });
+    
     const div = document.getElementById("pixels");
       
     html2canvas(div).then(canvas => {
