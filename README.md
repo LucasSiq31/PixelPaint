@@ -17,7 +17,7 @@
 
 ##
 
-Acesso à aplicação: https://lucassiq31.github.io/tenisStreet/](https://lucassiq31.github.io/PixelPaint/
+Acesso à aplicação: https://lucassiq31.github.io/PixelPaint/
 
 ##
 <b>Feito com:</b>
