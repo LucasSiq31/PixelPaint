@@ -1,28 +1,58 @@
-<h2 style="display: flex"><img width='25px' src='https://lucassiq31.github.io/PixelPaint/favicon.png'/> Pixel Paint</h2>
+# <img src="https://lucassiq31.github.io/PixelPaint/favicon.png" width="25"> Pixel Paint
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
--Projeto realizado para práticas de Front-End e Lógica de Programação
+O **Pixel Paint** é uma ferramenta de desenho focada em **Pixel Art**. Desenvolvida para praticar lógica de programação e manipulação dinâmica de elementos, a aplicação permite que usuários criem ilustrações digitais de forma simples e intuitiva, simulando um ambiente de pintura clássico em baixa resolução.
 
-##
-É um site que permite fazer ilustrações de pixel art
+---
 
-<b>Funções: </b>
+### 🎨 Funcionalidades Criativas
 
-- 📐 Escolha do tamanho da pintura (Escala 50x35 pixels) 
-- 🎨 Cores pré definidas
-- ❌ Retirada da borda dos pixels
-- ⬇ Download da arte feita
-- 🎨 Campo para cor personalizada
+* **Grid Customizável:** Área de pintura estruturada em uma escala de **50x35 pixels**.
+* **Paleta de Cores:** Seleção rápida entre cores pré-definidas para agilizar o fluxo de trabalho.
+* **Cor Personalizada:** Liberdade total para escolher qualquer tonalidade através de um seletor de cores avançado.
+* **Modo de Visualização:** Opção de retirar as bordas dos pixels para visualizar a arte final sem as grades.
+* **Exportação:** Botão de **Download** para salvar sua obra de arte diretamente no seu dispositivo.
 
-- Acesso à aplicação somente com visores com 840 pixels de largura
+> [!NOTE]
+> **Requisito de Exibição:** Para garantir a melhor experiência de edição e precisão no grid, a aplicação é otimizada para visores com largura a partir de **840px**.
 
-##
+---
 
-Acesso à aplicação: https://lucassiq31.github.io/PixelPaint/
+### 🌐 Acesse a Aplicação
 
-##
-<b>Feito com:</b>
-<div style="display: inline_block"><br>
-  <img width='50px' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-  <img width='50px' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-  <img width='50px' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-</div>
+Comece a criar sua arte agora:
+
+👉 [**Abrir Pixel Paint**](https://lucassiq31.github.io/PixelPaint/)
+
+---
+
+### 🛠️ Tecnologias Utilizadas
+
+O projeto foca no uso puro de tecnologias web para máxima performance:
+
+* **HTML5:** Estrutura da tela de pintura e controles.
+* **CSS3:** Estilização do grid, design responsivo e efeitos de interface.
+* **JavaScript:** Motor do projeto, responsável pela lógica de pintura, geração de arquivos para download e seletores de cores.
+
+---
+
+### 🧠 Desafios Técnicos Superados
+
+Um dos pontos altos deste projeto foi a implementação da **lógica de pintura por clique/arraste** e a funcionalidade de **Download**, que exige a conversão dos dados do grid em um formato de imagem real, unindo conceitos de coordenadas e renderização no navegador.
+
+## 👤 Autor
+Desenvolvido por **Lucas Siqueira**
+
+<p>
+  <a href="mailto:lucas.alves.siqueira31@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+  </a>
+  <a href="https://www.linkedin.com/in/lucas-siqueira-1b301b321">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://github.com/LucasSiq31">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</p>
